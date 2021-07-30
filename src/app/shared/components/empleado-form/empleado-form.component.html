@@ -1,0 +1,22 @@
+<form class="mt-3 col-md-8 offset-md-2 row g-3" (ngSubmit)="onSave()" [formGroup]="empleadoForm">
+    <div class="col-md-6">
+     
+      <input type="text" class="form-control"  placeholder="Nombre" formControlName="Nombre">
+    </div>
+    <div class="col-md-6">
+     
+      <input type="text" class="form-control" placeholder="Apellido" formControlName="Apellido">
+    </div>
+    <div class="col-6">
+      
+      <input type="text" class="form-control"  placeholder="Email" formControlName="Email">
+    </div>
+    <div class="col-6">
+      
+      <input type="text" class="form-control"  placeholder="Fecha de Ingreso DD/MM/AAAA" formControlName="FechadeIngreso">
+    </div>
+
+      <button type="submit" class="btn bg-dark btn-block text-light">Guardar</button>
+    
+  </form>
+<button type="button" class="col-md-8 offset-md-2 btn btn-primary mt-3" (click) ="onGoToBackToList()">Regresar</button>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tiendaonlinejorges": {
+      "hosting": {
+        "crud": [
+          "tiendaonlinejorges"
+        ]
+      }
+    }
+  }
+}
