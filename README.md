@@ -1,7 +1,9 @@
 # Crud
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2. 
-Firebase 
+and database in Firebase.
+
+La pagina de inicio es en listado,es necesario una vez inicie la aplicacion ingresar en el vinculo de listado
 
 ## Development server
 
